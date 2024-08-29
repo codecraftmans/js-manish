@@ -17,3 +17,40 @@ function printme (item) {
 }
 
 coding.forEach(printme)
+
+
+coding.forEach((item,index,arr)=>{   //for each loop contain three values item , index, array
+    console.log(item,index,arr);
+    
+})
+
+
+//++++++++++++++++++++++ Objects in Array ++++++++++++++++++++++++
+
+const mycoding = [
+    {
+        languagename: "Javascript",
+        languagefilename:"js"
+
+    }  ,
+
+    {
+        languagename: "Python",
+        languagefilename:"py"
+
+    }  ,
+    {
+        languagename: "java",
+        languagefilename:"java"
+
+    }  
+
+
+]
+
+mycoding.forEach((item)=> {
+    console.log(item.languagefilename);
+    console.log(item.languagename);
+    
+    
+})
