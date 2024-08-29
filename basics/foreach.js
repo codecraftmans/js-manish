@@ -1,3 +1,6 @@
+// For Each loop
+
+
 const coding = ["js","cpp","python","java","cotlin"]
 
 // coding.forEach((item)=>{                    //for each loop using call back function , this time we define this by arrow function this by
@@ -54,3 +57,12 @@ mycoding.forEach((item)=> {
     
     
 })
+
+
+//+++++++++++++++++++++++++++++++Notes++++++++++++++++++++++++
+
+/*
+
+for each loop not returns any value
+
+*/
